@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Summer</h1>
+<p>Summer is a season with warm weather and longer days.</p>
+
+<p>Favorite activity: {{ activity }}</p>
+
+<a href="{{ url_for('spring') }}">Visit the Spring Page</a>
+{% endblock %}

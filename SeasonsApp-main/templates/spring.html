@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Spring</h1>
+<p>Spring is a season when flowers bloom and the weather gets warmer.</p>
+
+<p>Average temperature: {{ temperature }}</p>
+
+<a href="{{ url_for('summer') }}">Visit the Summer Page</a>
+{% endblock %}
